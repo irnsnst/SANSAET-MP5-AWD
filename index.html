@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MACHINE PROBLEM 5 - BOOTSTRAP</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="Styles/style.css">
+</head>
+
+<body>
+
+  <div class="background-title">
+    <div class="container">
+      <div class="image-container">
+        <img src="pix/4.png" alt="Logo">
+      </div>
+      <h2>AaronTunes</h2>
+      <p>At AaronTunes, we orchestrate your musical dreams into reality. Find everything you need to craft your unique
+        sound. Let your melodies soar with AaronTunes.</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row justify-content-center products">
+      <div class="col-lg-4">
+        <div class="card mb-4">
+          <div class="position-relative">
+            <img src="pix/1.png" class="card-img-top" alt="Product 2" data-bs-toggle="modal"
+              data-bs-target="#product1-details-modal">
+            <div class="card-img-overlay">
+              <h5 class="card-title"> JCraft Aaronic AH-2 Semi-Hollow Electric Guitar - Arctic Frost</h5>
+              <p class="card-text">Taking the new horizons a next step is our JCraft AR Semi Hollow, a signature series
+                for our artist Aaron Sansaet!</p>
+              <span class="price">₱15,750.00 PHP</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Product 2 -->
+      <div class="col-lg-4">
+        <div class="card mb-4">
+          <div class="position-relative">
+            <img src="pix/2.png" class="card-img-top" alt="Product 2" data-bs-toggle="modal"
+              data-bs-target="#product2-details-modal">
+            <div class="card-img-overlay">
+              <h5 class="card-title"> JCraft Aaronic A-3 Electric Guitar - Vintage Charm</h5>
+              <p class="card-text">The S-3 Vintage is JCraft's high spec S Style guitar. The S-3 is equipped with JCraft
+                Crossroads 60's Alnico Pickup Set for a vintage tone.</p>
+              <span class="price">₱12,900.00 PHP</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product 3 -->
+      <div class="col-lg-4">
+        <div class="card mb-4">
+          <div class="position-relative">
+            <img src="pix/3.png" class="card-img-top" alt="Product 3" data-bs-toggle="modal"
+              data-bs-target="#product3-details-modal">
+            <div class="card-img-overlay">
+              <h5 class="card-title">JCraft Aaronic JZ-1 Offset Electric Guitar - Glacier White</h5>
+              <p class="card-text">Unleash your musical prowess with the JCraft JZ-1 Offset Electric Guitar in stunning
+                white. Elevate your sound and style with its sleek design and powerful performance.</p>
+              <span class="price">₱7,500.00 PHP</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Template for Product 1 -->
+  <div class="modal fade" id="product1-details-modal" tabindex="-1" aria-labelledby="product-details-label"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title text-center" id="product-details-label">JCraft Aaronic AH-2 Semi-Hollow Electric Guitar - Arctic Frostr</h5>
+        </div>
+        <div class="modal-body text-center">
+          <img src="pix/1.png" class="img-fluid mx-auto mb-3" alt="Product Image">
+          <h5 class="modal-title">JCraft Aaronic AH-2 Semi-Hollow Electric Guitar - Arctic Frost</h5>
+          <p>This encapsulates what Aaron loves most about the Semi-Hollow, and breathing it to life. Packed with our
+            Signature JCraft Alnico Pickups, these are specially named for this model Alessandra for neck, and Obra for
+            bridge.</p>
+          <table class="table table-bordered">
+            <tbody>
+              <tr>
+                <th>Specifications</th>
+                <th>Details</th>
+              </tr>
+              <tr>
+                <td>Body Material</td>
+                <td>Maple Body</td>
+              </tr>
+              <tr>
+                <td>Top Material</td>
+                <td>Maple Body</td>
+              </tr>
+              <tr>
+                <td>Average Weight</td>
+                <td>3.5kg / 7.7 lbs</td>
+              </tr>
+              <tr>
+                <td>Body Finish</td>
+                <td>Matte (Black and Cherry) / Gloss (White Burst and Snow White)</td>
+              </tr>
+              <tr>
+                <td>Body Colors</td>
+                <td>Matte Black, Matte Cherry, Gloss Snow White, Gloss Burst</td>
+              </tr>
+              <tr>
+                <td>Pickguard Colors</td>
+                <td>3-ply Pearloid</td>
+              </tr>
+              <tr>
+                <td>Bridge</td>
+                <td>Chrome Tune-O-Matic Bridge and Tailpiece</td>
+              </tr>
+              <tr>
+                <td>Top Load Strings</td>
+                <td>Yes</td>
+              </tr>
+              <tr>
+                <td>Bridge Finish</td>
+                <td>Standard</td>
+              </tr>
+              <tr>
+                <td>Pickups</td>
+                <td>Jcraft Obra Bridge Chrome Covered Pickup <br> Jcraft Alessandra Neck Chrome Covered Pickup</td>
+              </tr>
+              <tr>
+                <td>Wiring</td>
+                <td>Master Volume (500k Linear Taper) <br> Master Tone (500k Audio Taper) <br> 3-way selector switch
+                </td>
+              </tr>
+              <tr>
+                <td>Neck Pickup Finish</td>
+                <td>Chrome Covered</td>
+              </tr>
+              <tr>
+                <td>Control Plate / Knob Finish</td>
+                <td>Chrome Covered</td>
+              </tr>
+              <tr>
+                <td>Pickup Routing</td>
+                <td>Humbucker</td>
+              </tr>
+              <tr>
+                <td>Neck Material</td>
+                <td>Mahogany</td>
+              </tr>
+              <tr>
+                <td>Neck Profile</td>
+                <td>Vintage C</td>
+              </tr>
+              <tr>
+                <td>Neck Finish</td>
+                <td>High gloss (White and Burst) / Matte Unfinished (Cherry and Black)</td>
+              </tr>
+              <tr>
+                <td>Fingerboard Material</td>
+                <td>Rosewood</td>
+              </tr>
+              <tr>
+                <td>Fingerboard Radius</td>
+                <td>12"</td>
+              </tr>
+              <tr>
+                <td>Fret Size</td>
+                <td>Vintage Medium</td>
+              </tr>
+              <tr>
+                <td>Number of Frets</td>
+                <td>22</td>
+              </tr>
+              <tr>
+                <td>Scale Length</td>
+                <td>25"</td>
+              </tr>
+              <tr>
+                <td>Nut Width</td>
+                <td>43 mm</td>
+              </tr>
+              <tr>
+                <td>Nut Material</td>
+                <td>Graphtech Nubone BC-6060-00</td>
+              </tr>
+              <tr>
+                <td>Side dot markers</td>
+                <td>Yes</td>
+              </tr>
+              <tr>
+                <td>Truss Rod</td>
+                <td>Double Action</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="modal-footer d-flex flex-column align-items-center">
+          <span class="price mb-3">₱15,750.00 PHP</span>
+          <button type="button" class="btn btn-primary" id="purchaseButton1">Purchase</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Modal Template for Product 2 -->
+  <div class="modal fade" id="product2-details-modal" tabindex="-1" aria-labelledby="product-details-label"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title text-center" id="product-details-label">JCraft S-3VC Antique Vintage Electric Guitar
+          </h5>
+        </div>
+        <div class="modal-body text-center">
+          <img src="pix/2.png" class="img-fluid mx-auto" alt="Product 2 Image">
+          <h5 class="modal-title">JCraft S-3VC Antique Vintage Electric Guitar</h5>
+          <p class="modal-text">It is made with Poplar body paired with maple neck and Laurel fretboard - a similar
+            tonewood to rosewood, only with a darker shade. Poplar has been used on many big brand guitars and has
+            been a great alternative to Alder. The components and hardware of the S-3 remain the same with a vintage
+            6-point tremolo with bent steel saddle for a vintage bite, combined with a big steel block for increased
+            sustain. The neck is finished with synthetic bone nut to ensure excellent vibration transfer on both ends
+            of the string. At the same time, synthetic material ensures consistency, similar to Graphtech engineered
+            nuts. While the aesthetics and hardware are vintage in style, the fingerboard radius is a modern 14"
+            radius for better playability and can be set up for low action.</p>
+          <table class="table table-bordered">
+            <tbody>
+              <tr>
+                <th>Specifications</th>
+                <th>S-3V (Vintage)</th>
+                <th>S-3VC (Vintage Custom)</th>
+              </tr>
+              <tr>
+                <td>Body Material</td>
+                <td>Solid Poplar, 43mm body</td>
+                <td>Solid Poplar, 43mm body</td>
+              </tr>
+              <tr>
+                <td>Average Weight</td>
+                <td>3.6kg / 7.9lbs</td>
+                <td>2.8kg / 6.2 lbs</td>
+              </tr>
+              <tr>
+                <td>Body Finish</td>
+                <td>High Gloss</td>
+                <td>Relic</td>
+              </tr>
+              <tr>
+                <td>Body Colors</td>
+                <td>Olympic white, Surf Green, Shell Pink, Black, Sapphire Blue</td>
+                <td>Vintage white, Surf Green, Shell Pink, Black, Sapphire Blue</td>
+              </tr>
+              <tr>
+                <td>Pickguard Colors</td>
+                <td>3-ply Parchment</td>
+                <td>3-ply Aged Parchment</td>
+              </tr>
+              <tr>
+                <td>Bridge</td>
+                <td>SB101 6-Point Tremolo with Bent Steel Saddles</td>
+                <td>SB101 6-Point Tremolo with Bent Steel Saddles</td>
+              </tr>
+              <tr>
+                <td>Bridge / Saddle Finish</td>
+                <td>Standard</td>
+                <td>Aged</td>
+              </tr>
+              <tr>
+                <td>Pickups</td>
+                <td>JCraft Crossroads 60's Alnico Pickup Set</td>
+                <td>JCraft Crossroads 60's Alnico Pickup Set</td>
+              </tr>
+              <tr>
+                <td>Electronics</td>
+                <td>Master Volume (250k Linear Taper)<br>Neck Pickup Tone 1 (250k Audio Taper)<br>Middle Pickup Tone 2
+                  (250k Audio Taper)<br>Standard Direct No Tone Bridge Pickup<br>Standard 5-way switch</td>
+                <td>Master Volume (250k Linear Taper)<br>Neck Pickup Tone 1 (250k Audio Taper)<br>Middle Pickup Tone 2
+                  (250k Audio Taper)<br>Standard Direct No Tone Bridge Pickup<br>Standard 5-way switch</td>
+              </tr>
+              <tr>
+                <td>Pickup Covers</td>
+                <td>White</td>
+                <td>White</td>
+              </tr>
+              <tr>
+                <td>Knobs</td>
+                <td>Parchment White</td>
+                <td>Parchment White</td>
+              </tr>
+              <tr>
+                <td>Pickup Routing</td>
+                <td>Swimming Pool route</td>
+                <td>Swimming Pool route</td>
+              </tr>
+              <tr>
+                <td>Neck Material</td>
+                <td>Maple Gloss, Vintage Tinted</td>
+                <td>Maple Gloss, Vintage Tinted</td>
+              </tr>
+              <tr>
+                <td>Neck Profile</td>
+                <td>Vintage C</td>
+                <td>Vintage C</td>
+              </tr>
+              <tr>
+                <td>Neck Finish</td>
+                <td>High gloss</td>
+                <td>Relic matte</td>
+              </tr>
+              <tr>
+                <td>Fingerboard Material</td>
+                <td>Laurel</td>
+                <td>Laurel</td>
+              </tr>
+              <tr>
+                <td>Fingerboard Radius</td>
+                <td>14"</td>
+                <td>14"</td>
+              </tr>
+              <tr>
+                <td>Fret Size</td>
+                <td>Vintage Medium</td>
+                <td>Vintage Medium</td>
+              </tr>
+              <tr>
+                <td>Number of Frets</td>
+                <td>22</td>
+                <td>22</td>
+              </tr>
+              <tr>
+                <td>Nut Width</td>
+                <td>42mm</td>
+                <td>42mm</td>
+              </tr>
+              <tr>
+                <td>Nut Material</td>
+                <td>Synthetic Bone</td>
+                <td>Synthetic Bone</td>
+              </tr>
+              <tr>
+                <td>Side dot markers</td>
+                <td>Yes</td>
+                <td>Yes</td>
+              </tr>
+              <tr>
+                <td>Truss Rod Access</td>
+                <td>Headstock</td>
+                <td>Headstock</td>
+              </tr>
+              <tr>
+                <td>Tuners</td>
+                <td>Der Jung Vintage Tuners</td>
+                <td>Der Jung Vintage Tuners</td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="modal-footer d-flex flex-column align-items-center">
+            <span class="price mb-3">₱12,900.00 PHP</span>
+            <button type="button" class="btn btn-primary" id="purchaseButton2">Purchase</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!-- Modal Template for Product 3 -->
+  <div class="modal fade" id="product3-details-modal" tabindex="-1" aria-labelledby="product3-details-label"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="product3-details-label">JCraft Aaronic JZ-1 Offset Electric Guitar - Glacier White
+          </h5>
+        </div>
+        <div class="modal-body text-center">
+          <img src="pix/3.png" class="img-fluid mx-auto" alt="Product 3 Image">
+          <h5 class="modal-title">JCraft Aaronic JZ-1 Offset Electric Guitar - Glacier White</h5>
+          <p class="modal-text">Experience the ultimate fusion of style and sound with the JCraft Aaronic JZ-1 Offset
+            Electric Guitar in Glacier White. Crafted to perfection, this guitar delivers unparalleled performance and
+            aesthetics, making it a must-have for every discerning musician. Whether you're on stage or in the studio,
+            this guitar will elevate your playing to new heights.</p>
+
+          <table class="table table-bordered">
+            <tbody>
+              <tr>
+                <th>Specifications</th>
+                <th>JZ-1</th>
+              </tr>
+              <tr>
+                <td>Body Material</td>
+                <td>Poplar</td>
+              </tr>
+              <tr>
+                <td>Body Finish</td>
+                <td>High Gloss</td>
+              </tr>
+              <tr>
+                <td>Body Colors</td>
+                <td>Black, Sunburst, Surf Green, White, Shell Pink, Metallic Orange</td>
+              </tr>
+              <tr>
+                <td>Pickguard Colors</td>
+                <td>3-ply Black</td>
+              </tr>
+              <tr>
+                <td>Bridge</td>
+                <td>Tune-O-Matic Bridge (Top-Load)</td>
+              </tr>
+              <tr>
+                <td>Bridge Finish</td>
+                <td>Standard</td>
+              </tr>
+              <tr>
+                <td>Pickups</td>
+                <td>P90 Ceramic Matched Pickups</td>
+              </tr>
+              <tr>
+                <td>Wiring</td>
+                <td>Master Volume (500k Linear Taper)<br>Master Tone (500k Audio Taper)</td>
+              </tr>
+              <tr>
+                <td>Neck Pickup Finish</td>
+                <td>Cream Covered</td>
+              </tr>
+              <tr>
+                <td>Neck Material</td>
+                <td>Maple</td>
+              </tr>
+              <tr>
+                <td>Neck Finish</td>
+                <td>High gloss (back)</td>
+              </tr>
+              <tr>
+                <td>Fingerboard Material</td>
+                <td>Maple (gloss finish)</td>
+              </tr>
+              <tr>
+                <td>Fret Size</td>
+                <td>Medium Jumbo</td>
+              </tr>
+              <tr>
+                <td>Number of Frets</td>
+                <td>22</td>
+              </tr>
+              <tr>
+                <td>Nut Material</td>
+                <td>Plastic</td>
+              </tr>
+              <tr>
+                <td>Side dot markers</td>
+                <td>Yes</td>
+              </tr>
+              <tr>
+                <td>Truss Rod</td>
+                <td>Double Action</td>
+              </tr>
+              <tr>
+                <td>Inclusions</td>
+                <td>Padded Gigbag</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <div class="modal-footer d-flex flex-column align-items-center">
+            <span class="price mb-3">₱7,500.00 PHP</span>
+            <button type="button" class="btn btn-primary" id="purchaseButton3">Purchase</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="JS/script.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
